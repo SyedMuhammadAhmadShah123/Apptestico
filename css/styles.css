@@ -22,3 +22,22 @@ header{
     color: var(--font-white);
     background-color:var(--Header-bck) ;
 }
+nav a, li{
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
