@@ -41,3 +41,11 @@ nav ul{
     align-items: center;
     width: 50%;
 }
+.phone-and-text-container{
+    display: flex;
+    justify-content: space-around;
+}
+.phone-and-text-container .content{
+    width: 50%;
+    /* border: 2px solid red; */
+}
