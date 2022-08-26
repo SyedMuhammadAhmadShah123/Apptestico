@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    src: url("/assets/fonts/Pacifico-Regular.ttf");
+    font-family: Pacifico;
+}
+.Apptestico-logo{
+    font-family: Pacifico;
+    font-size: 2rem;
+    color: #ffffff;
+}
 body{
     background-color: orange;
 }
