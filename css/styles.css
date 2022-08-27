@@ -8,6 +8,7 @@
     --font-white: #ffffff;
     --home-button-black:#0000005c;
     --button-blue:#4192cc;
+    --grey:rgb(125, 143, 155)
 }
 body{
   font-family: Helvetica;
@@ -149,4 +150,47 @@ a:hover{
     display: flex;
     justify-content:space-around ;
     box-shadow: 0px 2px 8px 1px #00000064;
+}
+#services .logo{
+    border:6px solid var(--grey);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#services .card {
+    color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    align-items:center;
+    width: 300px;
+    gap:.5em;
+    height: auto;
+    
+    
+}
+.card-button a{
+    text-decoration: none;
+    color: var(--font-white);
+    background-color: var(--button-blue);
+    padding: .6em 2em;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-top: 20em;
+    /* border: 2px solid red; */
+
+    
+}
+.card-button{
+    margin-top: 1em;
+}
+#services{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
 }
