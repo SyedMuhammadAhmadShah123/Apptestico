@@ -192,5 +192,17 @@ a:hover{
     /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5em;
+    padding: 5em 0;
+}
+.slider h4{
+    color: var(--Header-bck);
+    padding:.5em 10% ;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.carousel-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
