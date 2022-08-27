@@ -73,12 +73,28 @@ nav ul{
 .phone-and-text-container{
     display: flex;
     justify-content: space-around;
-}
-.phone-and-text-container .content{
-    width: 50%;
     /* border: 2px solid red; */
+    padding-top:2em ;
 }
+
 /* .text p{
     font-family: Helvetica;
     font-weight: lighter;
 } */
+.phone-and-text-container .content{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+
+}
+.phone-and-text-container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text h1{
+    /* border: 2px solid red; */
+    font-size: 3.5rem;
+}
