@@ -205,4 +205,61 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.prefooter .heading{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    /* border: 2px solid red; */
+}
+.prefooter{
+    color: var(--grey);
+    padding: 4em 8em;
+    display: flex;
+    gap: 10em;
+}
+.prefooter .blog{
+    display: flex;
+    flex-direction:column ;
+    gap:2em;
+}
+.prefooter .twitter{
+    display: flex;
+    flex-direction:column ;
+    gap:1em;
+}
+.prefooter .prefooter-card{
+    display: flex;
+    gap:2em;
+}
+.prefooter .text, .prefooter .feed{
+    display: flex;
+    flex-direction:column ;
+    gap:1em;
+}
+.prefooter a, .prefooter span{
+    text-decoration: none;
+    color: var(--button-blue);
+}
+footer{
+    padding: 0 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    color: var(--grey);
+    font-style: normal;
+}
+address {
+    font-style:normal;
+     }
+address .social{
+    width: 1em;
+    display: flex;
+
+}
+.address-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
