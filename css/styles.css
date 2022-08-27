@@ -6,6 +6,8 @@
 :root{
     --Header-bck: #4d5c67;
     --font-white: #ffffff;
+    --home-button-black:#0000005c;
+    --button-blue:#4192cc;
 }
 body{
   font-family: Helvetica;
@@ -101,11 +103,13 @@ nav ul{
 .button{
     text-decoration: none;
     color: inherit;
-    background-color:rgb(65, 146, 204);
+    background-color:var(--button-blue);
     padding: 1.2em 4em;
     font-size: 1rem;
     border-radius: 30px;
+    box-shadow: 0px 1px 6px 1px #00000054;
 }
+
 .button-container{
     display: flex;
     /* gap: 1em; */
@@ -119,4 +123,23 @@ nav ul{
 .button-container p{
     padding: 1.2em 1.5em;
 
+}
+.home-button{
+    background-color:var(--home-button-black);
+    padding: .6em 2em;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+.home-button:hover{
+    background-color:var(--button-blue);
+    color: inherit;
+
+}
+.button:hover{
+   
+    box-shadow: 0px 1px 6px 1px #000000b0;
+    color: inherit;
+}
+a:hover{
+    color: var(--button-blue);
 }
