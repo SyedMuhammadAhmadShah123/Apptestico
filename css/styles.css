@@ -17,6 +17,7 @@ body{
 .Apptestico-logo{
     font-family: Pacifico;
     font-size: 2rem;
+    /* border: 2px solid red; */
 }
 header{
     color: var(--font-white);
@@ -30,16 +31,22 @@ nav a, li{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* border: 2px solid red; */
+    padding: 1em 5em;
+    
+
+
 
 
 }
 nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 45%;
+    /* border: 2px solid red; */
+
 }
 .phone-and-text-container{
     display: flex;
